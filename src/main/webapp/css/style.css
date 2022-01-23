@@ -1,0 +1,142 @@
+.custom-bg{
+    background:#673ab7!important;
+}
+
+.navbar-brand{
+	font-size:2rem;
+
+    font-family: 'Hammersmith One', sans-serif; 
+   
+	
+}
+.nav-link{
+	margin-right:10px;
+	margin-left:10px;
+	color:White;
+	font-size:1rem;
+	Text-transform:uppercase;
+	font-size:5mm;
+	
+	
+}
+
+
+
+.admin .card{
+
+    border:1px solid #673ab7;
+
+
+}
+
+
+.admin .card:hover{
+
+    background:#e2e2e2;
+    cursor: pointer;
+
+
+}
+
+.news{
+	background-color:black;
+}
+.btn2{
+	height:45px;
+	width:100px;
+	background:white;
+	margin-left:-10px;
+	border:2px solid white;
+	font-weight:600;
+	margin-top:20px;
+	
+}
+.news input{
+	height :45px;
+	width:55%;
+	border:2px solid white;
+	outline:none;
+	background:black;
+	color:white;
+	margin-top:20px;
+	font-weight:600;
+	
+}
+
+
+
+.list-group-item.active{
+
+    background:#673ab7!important;
+    border-color:#673ab7!important;
+}
+
+.discount-label{
+    font-size: 10px!important;
+    font-style: italic!important;
+    /*text-decoration: line-through!important;*/
+}
+
+.product-card:hover{
+    background:#e2e2e2;
+    cursor: pointer;
+
+
+}
+
+
+/*toast*/
+
+#toast {
+    min-width: 300px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -120px;
+    background: #333;
+    padding: 15px;
+    color: White;
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+    visibility: hidden;
+    box-shadow: 0px 0px 100px #000;
+}
+
+#toast.display {
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+
+}
+.contents{
+    cursor:pointer;
+}
